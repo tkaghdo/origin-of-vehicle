@@ -68,7 +68,7 @@ def main():
 
     # return a Series where each value corresponds to the column or where the maximum value occurs for that observation
     predicted_origins = testing_probs.idxmax(axis=1)
-    print(predicted_origins)
+    print(predicted_origins.value_counts())
 
 if __name__ == "__main__":
     sys.exit(0 if main() else 1)

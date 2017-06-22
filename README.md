@@ -16,4 +16,10 @@ Accuracy Score for model of origin 3 is 0.8175182481751825
 
 Accuracy Score for model of origin 2 is 0.8357664233576643
 
+The model made the following prediction on the test data frame
 
+|origin|fequency|
+|------|--------|
+|1    |63|
+|3    |33|
+|2    |22|
